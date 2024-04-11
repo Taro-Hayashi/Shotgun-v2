@@ -1,4 +1,4 @@
-# Armors キーパッド
+# Shotgun テンキーパッド
 
 
 ## キット内容
@@ -7,11 +7,11 @@
 |-|-|-|
 |1|メインボード|1|
 |2|アクリルプレート|3|
-|3|ネジ（短）|6|
-|4|ネジ（中）|12|
-|5|スペーサー（短）|6|
+|3|ネジ（短）|4|
+|4|ネジ（中）|8|
+|5|スペーサー（短）|4|
 |6|スペーサー（長）|4|
-|7|ダイオード|17|
+|7|ダイオード|18|
 |8|ピンヘッダー|1|
 |9|ゴム足|4|
 
@@ -20,15 +20,15 @@
 |部品名|数||
 |-|-|-|
 |XIAO RP2040|1||
-|キースイッチ|17|Kailh/Lofree/Gateron ロープロファイル|
-|キーキャップ|17|スイッチに対応したもの|
+|キースイッチ|18|Kailh/Lofree/Gateron ロープロファイル|
+|キーキャップ|18|スイッチに対応したもの|
 |USB ケーブル|1||
 
 ### （オプション）LED
 |部品名|数|
 |-|-|
-|WS2812B|3|
-|SK6812MINI-E|17|
+|WS2812B|5|
+|SK6812MINI-E|18|
 
 ## はんだ付け
 ### （オプション）LEDのはんだ付け
@@ -47,7 +47,7 @@ LEDには向きがあります。LED本体や足の切れ込みと基板のマ�
 7ピン分を二つ切り出します。  
 ![](img/7_cut_pinheader.jpg)  
 
-メインボード裏面から短い方の足を差し込み表面ではんだ付けします。長い方の足を差し込んだ場合ははんだ付けした所を切り短くします。  
+メインボード裏面から差し込み表面ではんだ付けします。  
 ![](img/8_pinheader.jpg)  
 
 ### キースイッチのはんだ付け
@@ -59,7 +59,7 @@ BOOTボタンを押しながらPCに接続し、少し待ってから指を離�
 ![](img/10_xiao_boot.jpg)  
 
 こちらのuf2ファイルをダウンロードしてください。  
-- [tarohayashi_armors_v2_default.uf2](https://github.com/Taro-Hayashi/Armors-v2/releases/latest/download/tarohayashi_armors_v2_default.uf2)
+- [tarohayashi_shotgun_v2_default.uf2](https://github.com/Taro-Hayashi/Shotgun-v2/releases/latest/download/tarohayashi_shotgun_v2_default.uf2)
 
 RPI-RP2ドライブにダウンロードしたuf2ファイルをドラッグアンドドロップして、ドライブが消えたことを確認します。  
 
@@ -95,7 +95,7 @@ XIAO RP2040に重なっているキーを押しながらPCと接続し、1秒以
 ※認識されない場合はXIAO RP2040のBOOTボタンを押しながら接続してください。  
 
 こちらのuf2ファイルをダウンロードしてください。
-- [tarohayashi_armors_v2_vial.uf2](https://github.com/Taro-Hayashi/Armors-v2/releases/latest/download/tarohayashi_armors_v2_vial.uf2)
+- [tarohayashi_shotgun_v2_vial.uf2](https://github.com/Taro-Hayashi/Shotgun-v2/releases/latest/download/tarohayashi_shotgun_v2_vial.uf2)
 
 RPI-RP2ドライブにダウンロードしたuf2ファイルをドラッグアンドドロップして、ドライブが消えたことを確認します。  
 
@@ -106,15 +106,15 @@ VIALに接続し自由にキーを入れ替えてお使いください。
 
 ## その他
 ### Remap用ファームウェア
-- [tarohayashi_armors_v2_via.uf2](https://github.com/Taro-Hayashi/Armors-v2/releases/latest/download/tarohayashi_armors_v2_via.uf2)
+- [tarohayashi_shotgun_v2_via.uf2](https://github.com/Taro-Hayashi/Shotgun-v2/releases/latest/download/tarohayashi_shotgun_v2_via.uf2)
 
 ### ファームウェアのコード
-- vial-qmk https://github.com/Taro-Hayashi/vial-qmk/tree/tarohayashi/keyboards/tarohayashi/armors_v2
-- qmk-firmware https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/armors_v2
+- vial-qmk https://github.com/Taro-Hayashi/vial-qmk/tree/tarohayashi/keyboards/tarohayashi/shotgun_v2
+- qmk-firmware https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_v2
 
 
 ### zmk-config
-- https://github.com/Taro-Hayashi/zmk-config-th/tree/armors
+- https://github.com/Taro-Hayashi/zmk-config-th/tree/shotgun
 
 ### 販売サイト
-BOOTH: https://tarohayashi.booth.pm/items/3154455
+BOOTH: https://tarohayashi.booth.pm/items/3154474
