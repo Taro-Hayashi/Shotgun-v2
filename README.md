@@ -111,7 +111,9 @@ VIALに接続し自由にキーを入れ替えて完成です。
 ### ファームウェアのコード
 - vial-qmk https://github.com/Taro-Hayashi/vial-qmk/tree/tarohayashi/keyboards/tarohayashi/shotgun_v2
 - qmk-firmware https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_v2
-
+- 
+### PRK Firmware
+- [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-v2/releases/latest/download/keymap.rb)
 
 ### zmk-config
 - https://github.com/Taro-Hayashi/zmk-config-th/tree/shotgun
