@@ -116,7 +116,7 @@ VIALに接続し自由にキーを入れ替えて完成です。
 - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-v2/releases/download/0.23.9/keymap.rb)
 
 ### zmk-config
-- https://github.com/Taro-Hayashi/zmk-config-th/tree/shotgun
+- https://github.com/Taro-Hayashi/zmk-config-th/tree/Shotgun
 
 ### 販売サイト
 BOOTH: https://tarohayashi.booth.pm/items/3154474
