@@ -95,7 +95,7 @@ XIAO RP2040に重なっているキーを押しながらPCと接続し、1秒以
 ※認識されない場合はXIAO RP2040のBOOTボタンを押しながら接続してください。
 
 こちらのuf2ファイルをダウンロードしてください。
-- [tarohayashi_shotgun_v2_vial.uf2](https://github.com/Taro-Hayashi/Shotgun-v2/releases/latest/download/tarohayashi_shotgun_v2_vial.uf2)
+- [tarohayashi_shotgun_v2_vial.uf2](https://github.com/Taro-Hayashi/Shotgun-v2/releases/download/0.23.9/tarohayashi_shotgun_v2_vial.uf2)
 
 RPI-RP2ドライブにダウンロードしたuf2ファイルをドラッグアンドドロップして、ドライブが消えたことを確認します。
 
